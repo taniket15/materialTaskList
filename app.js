@@ -147,11 +147,11 @@ function removeTaskFromLocalStorage(taskItem) {
 
 // Clear all tasks
 function clearAllTasksFromLocalStorage(){
-    if(localStorage.getItem("tasks") !== null){
-        localStorage.removeItem("tasks");
-    }
+    // if(localStorage.getItem("tasks") !== null){
+    //     localStorage.removeItem("tasks");
+    // }
 
-    // localStorage.clear();
+    localStorage.clear();
 }
 
 
